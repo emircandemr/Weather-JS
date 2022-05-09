@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="weatherBox">
+        <div class="searchBox">
+            <h2 class="headerText">Hava Durumu</h2>
+            <input class="headerValue" type="text" id="search" placeholder="Şehir Giriniz.">
+        </div>
+        <div class="content">
+            <div class="dateBox">
+                <div class="date">
+                    <p id="date">12.04.2022</p>
+                </div>
+                <div class="weatherDesc">
+                    <p id="weatherDesc">Parçalı Az Bulutlu</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="footer">
+                    <div class="sideBox">
+                        <i class="fa-solid fa-droplet sideImg"></i>
+                        <p class="sideValue " id="humidity">25 <span>%</span></p>
+                        <p class="sideText">Nem</p>
+                    </div>
+                    <div class="sideBox">
+                        <i class="fa-solid fa-wind sideImg"></i>
+                        <p class="sideValue" id="wind">4.12 <span>km/h</span> </p>
+                        <p class="sideText">Rüzgar</p>
+                    </div>
+                    <div class="sideBox">
+                        <i class="fa-solid fa-eye sideImg"></i>
+                        <p class="sideValue" id="visibility">15 <span>km</span> </p>
+                        <p class="sideText">Görüş</p>
+                    </div>
+                </div>
+                <div class="weatherContent">
+                    <div class="img" id="imgid"> 
+                        <i class="fa-solid fa-cloud-sun"></i>
+                    </div>
+                    <div class="degree">
+                        <p class="degreeValue">25.8 <span>°C</span></p>
+                        <p class="degreeText">Today</p>
+                        <p class="degreeText" id="city">İstanbul</p>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

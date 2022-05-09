@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-image: url("background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.weatherBox{
+    background-attachment: fixed;
+    height: 100vh;
+    background-color: rgba(0, 0, 0,0.2);
+    /* display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start; */
+}
+.searchBox{
+    width: 20%;
+    height: 10%;
+    position: relative;
+    top: 20%;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.headerText{
+    color: rgb(26, 24, 24);
+    margin-bottom: 10px;
+    text-shadow: 1px 3px rgba(0,0,0,0.1);
+}
+
+.headerValue{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 5px;
+    color: rgb(26, 24, 24);
+    font-weight: bolder;
+    text-align: center;
+    border-bottom: 2px solid rgb(26, 24, 24);
+}
+.headerValue::placeholder{
+    color:rgb(26, 24, 24);
+    font-weight: bold;
+}
+
+
+.content{
+    width: 20%;
+    height: 30vh;
+    /* box-sizing: border-box; */
+    margin: auto;
+    /* padding: 10px; */
+    position: relative;
+    top: 25%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.dateBox{
+    width: 100%;
+    height: 15%;    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background: rgba(151, 127, 110, 0.08);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.date{
+    font-family: 'Orbitron', sans-serif;
+    text-align: left;
+
+}
+
+.weatherDesc{
+    font-family: 'Bebas Neue', cursive; 
+    text-align: right;
+}
+
+.container{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.weatherContent{
+    width: 80%;
+    /* background-color: aquamarine; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img{
+    width: 50%;
+    color: #ddd;
+    font-size: 70px;
+    text-align: center;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.degree{
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.footer{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* border-right: 1px solid rgba(0, 0, 0, 0.08); */
+    border-right: 1px solid rgba(221, 221, 221, 0.253);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 10px;
+}
+
+.sideBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sideValue{
+    margin-top: 9px;
+    font-size: 13px;
+
+}
+
+.sideText{
+    margin-top: 3px;
+    font-size: 13px;
+    font-weight: lighter;
+
+}
+
+.sideImg{
+    color: rgba(221, 221, 221, 0.815);
+}
+
+.degreeValue{
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: rgb(34, 31, 31);
+    text-shadow: 1px 3px rgba(0,0,0,0.1);
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+.degreeText{
+    margin-bottom: 10px;
+    color: rgb(26, 24, 24);
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+#city{
+    font-size: 20px;
+}
+
+@media screen and (max-width:800px) and (min-height:800px) {
+
+    .searchBox{
+        width: 80%;
+        height: 13%;
+    }
+
+    .content{
+        width: 80%;
+        height: 35vh;
+    }
+}
+
+@media screen and (max-height:800px) {
+
+    .searchBox{
+        width: 80%;
+        height: 15%;
+    }
+
+    .content{
+        width: 80%;
+        height: 40vh;
+    }
+}
+
+
+
+@media only screen and (min-width:800px) and (max-width:1300px) {
+    .searchBox{
+        width: 40%;
+        height: 10%;
+    }
+
+    .content{
+        width: 40%;
+        height: 30vh;
+    }
+}
+
+
