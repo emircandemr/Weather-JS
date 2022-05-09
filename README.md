@@ -2,7 +2,7 @@
  Weather forecast application using OpenWeather API
 
 
-## Live : https://astonishing-alpaca-50c04d.netlify.app
+## Live : https://js-weather-forecast.netlify.app
 
 
 ![Ekran görüntüsü 2022-05-09 212521](https://user-images.githubusercontent.com/72731296/167473513-75069641-f21b-4880-9a3c-8e5bb5eca9c7.png)
