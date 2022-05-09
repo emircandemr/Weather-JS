@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
 body{
     height: 100vh;
     background-image: url("background.jpg");
@@ -15,10 +14,6 @@ body{
     background-attachment: fixed;
     height: 100vh;
     background-color: rgba(0, 0, 0,0.2);
-    /* display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: flex-start; */
 }
 .searchBox{
     width: 20%;
@@ -36,13 +31,11 @@ body{
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
-
 .headerText{
     color: rgb(26, 24, 24);
     margin-bottom: 10px;
     text-shadow: 1px 3px rgba(0,0,0,0.1);
 }
-
 .headerValue{
     background: transparent;
     border: 0;
@@ -57,14 +50,10 @@ body{
     color:rgb(26, 24, 24);
     font-weight: bold;
 }
-
-
 .content{
     width: 20%;
     height: 30vh;
-    /* box-sizing: border-box; */
     margin: auto;
-    /* padding: 10px; */
     position: relative;
     top: 25%;
     background: rgba(255, 255, 255, 0.2);
@@ -73,9 +62,7 @@ body{
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
-
 }
-
 .dateBox{
     width: 100%;
     height: 15%;    
@@ -89,27 +76,22 @@ body{
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
 }
-
 .date{
     font-family: 'Orbitron', sans-serif;
     text-align: left;
 
 }
-
 .weatherDesc{
     font-family: 'Bebas Neue', cursive; 
     text-align: right;
 }
-
 .container{
     width: 100%;
     height: 85%;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
-
 .weatherContent{
     width: 80%;
     /* background-color: aquamarine; */
@@ -119,7 +101,6 @@ body{
     justify-content: space-around;
     align-items: center;
 }
-
 .img{
     width: 50%;
     color: #ddd;
@@ -131,7 +112,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-
 .degree{
     height: 100%;
     width: 50%;
@@ -141,7 +121,6 @@ body{
     align-items: center; */
 
 }
-
 .footer{
     width: 20%;
     height: 100%;
@@ -154,31 +133,26 @@ body{
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 10px;
 }
-
 .sideBox{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
 .sideValue{
     margin-top: 9px;
     font-size: 13px;
 
 }
-
 .sideText{
     margin-top: 3px;
     font-size: 13px;
     font-weight: lighter;
 
 }
-
 .sideImg{
     color: rgba(221, 221, 221, 0.815);
 }
-
 .degreeValue{
     margin-top: -10px;
     margin-bottom: 10px;
@@ -188,18 +162,15 @@ body{
     font-family: 'Orbitron', sans-serif;
 
 }
-
 .degreeText{
     margin-bottom: 10px;
     color: rgb(26, 24, 24);
     font-family: 'Bebas Neue', cursive;
 
 }
-
 #city{
     font-size: 20px;
 }
-
 @media screen and (max-width:800px) and (min-height:800px) {
 
     .searchBox{
@@ -212,7 +183,6 @@ body{
         height: 35vh;
     }
 }
-
 @media screen and (max-height:800px) {
 
     .searchBox{
@@ -225,9 +195,6 @@ body{
         height: 40vh;
     }
 }
-
-
-
 @media only screen and (min-width:800px) and (max-width:1300px) {
     .searchBox{
         width: 40%;
@@ -239,5 +206,3 @@ body{
         height: 30vh;
     }
 }
-
-
