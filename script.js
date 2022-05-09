@@ -120,3 +120,71 @@ const displayResult = (result) =>{
 
 const searchBar = document.getElementById("search");
 searchBar.addEventListener("keypress", weatherApi)
+
+
+
+    // else if (descrimg == "yağmur" || descrimg == "az yağmur" || descrimg =="hafif yağmur"
+    // || descrimg == "şiddetli yağmur") {
+    //     let temptimg = "";
+    //     let img = document.getElementById("imgid");
+    //     temptimg += '<i class="fa-solid fa-cloud-rain"></i>'
+    //     img.innerHTML = temptimg;
+    // }
+
+    // else if (descrimg == "açık" || descrimg.includes("güneş")) {
+    //     let temptimg = "";
+    //     let img = document.getElementById("imgid");
+    //     temptimg += '<i class="fa-solid fa-sun"></i>'
+    //     img.innerHTML = temptimg;
+        
+    // }
+
+    // else {
+    //     let temptimg = "";
+    //     let img = document.getElementById("imgid");
+    //     temptimg += '<i class="fa-solid fa-cloud"></i>'
+    //     img.innerHTML = temptimg;
+    // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
