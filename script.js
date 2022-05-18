@@ -121,8 +121,6 @@ const displayResult = (result) =>{
 const searchBar = document.getElementById("search");
 searchBar.addEventListener("keypress", weatherApi)
 
-
-
     // else if (descrimg == "yağmur" || descrimg == "az yağmur" || descrimg =="hafif yağmur"
     // || descrimg == "şiddetli yağmur") {
     //     let temptimg = "";
